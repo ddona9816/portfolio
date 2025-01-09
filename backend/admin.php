@@ -1,9 +1,9 @@
 <?php
 session_start();
-require '../CV/functions.php';
+require '../cv/functions.php';
 
 if(!isset($_SESSION["login"])){
-    header("Location: ../CV/login.php");
+    header("Location: ../cv/login.php");
 }
 
 ?>
@@ -72,7 +72,7 @@ if(!isset($_SESSION["login"])){
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav ms-auto">
                     <li class="nav-item">
-                        <form action="../CV/logout.php" method="POST">
+                        <form action="../cv/logout.php" method="POST">
                             <button class="nav-link" name="logout">Logout</button>
                         </form>
                     </li>
@@ -93,14 +93,6 @@ if(!isset($_SESSION["login"])){
                 <a href="manage_users/index.php" class="text-decoration-none">
                     <div class="card dashboard-card">
                         <span>Kelola User</span>
-                    </div>
-                </a>
-            </div>
-            <!-- Kelola Akun -->
-            <div class="col-md-6 mb-4">
-                <a href="manage_accounts/index.php" class="text-decoration-none">
-                    <div class="card dashboard-card">
-                        <span>Kelola Akun</span>
                     </div>
                 </a>
             </div>

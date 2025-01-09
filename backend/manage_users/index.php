@@ -1,5 +1,5 @@
 <?php
-require '../../CV/functions.php';
+require '../../cv/functions.php';
 
 $users = query("SELECT * FROM users","SELECT",true);
 
@@ -161,6 +161,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
                 </table>
             </div>
         </div>
+        <a href="../admin.php" class="btn btn-secondary">Kembali</a>
     </div>
 
     <!-- Modal Edit User -->

@@ -1,5 +1,5 @@
 <?php
-require '../../CV/functions.php';
+require '../../cv/functions.php';
 
 $projects = query("SELECT * FROM projects","SELECT",true);
 
@@ -131,6 +131,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
                 </table>
             </div>
         </div>
+        <a href="../admin.php" class="btn btn-secondary">Kembali</a>
     </div>
 
     <!-- Modal Edit User -->

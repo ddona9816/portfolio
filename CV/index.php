@@ -326,7 +326,7 @@ $result = $conn->query($sql);
                     <p class="my-3">
                         <?= $row['deskripsi'] ?>
                     </p>
-                    <a href="https://drive.google.com/uc?export=download&id=1jPZ2PBT_nZ2X2xGsYW6FaPvpL02yTuCk" class="btn btn-custom">Download CV</a>
+                    <a href="https://drive.google.com/uc?export=download&id=14AaxU36897e9bF5N1dsaCzq4IDAMHoK-">Download CV</a>
                 </div>
                 <!-- Hero Image -->
                 <div class="col-md-6 text-center hero-image">
@@ -386,7 +386,7 @@ $result = $conn->query($sql);
                             <div class="card-body" style="height: 50%; overflow: hidden;">
                                 <h5 class="card-title"><?= $project["nama_project"]; ?></h5>
                                 <p class="card-text" style="overflow: hidden; text-overflow: ellipsis; white-space: nowrap;"><?= $project["deskripsi_project"]; ?></p>
-                                <a href="#" class="text-secondary"><?= $project["link_project"]; ?></a>
+                                <a href="<?= $project['link_project']; ?>" class="text-secondary" target="_blank">Link</a>
                             </div>
                         </div>
                     </div>
