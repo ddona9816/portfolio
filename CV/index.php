@@ -29,101 +29,6 @@ $result = $conn->query($sql);
     <link rel="stylesheet" href="style.css">
     <!-- Add this link to the CSS file or add the styles to the <style> tag -->
 <style>
-    /* Navbar Styling */
-    /* .navbar {
-        background-color: #333;
-        padding: 15px 30px;
-    }
-
-    .navbar .navbar-brand {
-        font-weight: bold;
-        font-size: 1.5rem;
-        color: #fff;
-    }
-
-    .navbar .navbar-nav .nav-link {
-        color: #ddd;
-        font-size: 1rem;
-        padding: 10px 15px;
-    }
-
-    .navbar .navbar-nav .nav-link:hover {
-        background-color: #555;
-        color: #fff;
-    }
-
-    .navbar-toggler {
-        border: none;
-        background-color: #444;
-    }
-
-    .navbar-toggler-icon {
-        background-color: #fff;
-    }
-
-    .hire-btn {
-        background-color: #28a745;
-        color: #fff;
-        font-weight: bold;
-        padding: 8px 15px;
-        border-radius: 30px;
-        border: none;
-        transition: background-color 0.3s;
-    }
-
-    .hire-btn:hover {
-        background-color: #218838;
-    }
-
-    footer {
-        background-color: #f8f9fa;
-        padding: 40px 0;
-    }
-
-    footer h1 {
-        font-size: 2rem;
-        color: #333;
-        font-weight: bold;
-    }
-
-    .address {
-        font-size: 1rem;
-        color: #666;
-    }
-
-    .address span {
-        display: block;
-        margin: 5px 0;
-    }
-
-    footer .row span {
-        color: #888;
-        font-size: 0.9rem;
-    }
-
-    footer .row span:hover {
-        color: #333;
-        text-decoration: underline;
-        cursor: pointer;
-    }
-
-    @media (max-width: 768px) {
-        .navbar .navbar-brand {
-            font-size: 1.2rem;
-        }
-
-        .navbar .navbar-nav .nav-link {
-            font-size: 0.9rem;
-        }
-
-        footer h1 {
-            font-size: 1.5rem;
-        }
-
-        footer .row span {
-            font-size: 0.8rem;
-        }
-    } */
      /* Styling untuk keseluruhan halaman */
     body {
         font-family: 'Arial', sans-serif;
@@ -160,31 +65,6 @@ $result = $conn->query($sql);
         padding: 12px;
         text-align: left;
     }
-
-    /* .education-section .table-dark {
-        background-color: #2c3e50;
-        color: #fff;
-    } */
-
-    /* .education-section .table th {
-        background-color: #34495e;
-    } */
-
-    /* .education-section .table tr:nth-child(even) {
-        background-color: #ecf0f1;
-    }
-
-    .education-section .table tr:hover {
-        background-color: #bdc3c7;
-    }
-
-    .education-section .table td {
-        color: #333;
-    }
-
-    .education-section .table td.text-light {
-        color: #ccc;
-    } */
 
     /* Section Projects */
     .project-section {
@@ -405,13 +285,13 @@ $result = $conn->query($sql);
                         <a href="tel:085832134674"><i class="bi bi-telephone-inbound"></i></a>
                     </div>
                     <div class="address">
-                        Address: Jl air tanjung, Tasikmalaya Jawa Barat, Indonesia
+                        Address: Jl. Babakan Siliwangi, Tasikmalaya Jawa Barat, Indonesia
                     </div>
                 </div>
             </div>
             <div class="row mt-5 pb-3">
                 <div class="col-md-12 d-flex flex-row justify-content-evenly">
-                    <span>&copy; 2025 muhamad_taufikakbar.ct.ws</span><span> </span> <span>All rights reserved</span><span> </span><span>Privacy Policy</span>
+                    <span>&copy; 2025 portfoliodwifajar.ct.ws/cv/</span><span> </span> <span>All rights reserved</span><span> </span><span>Privacy Policy</span>
                 </div>
             </div>
 

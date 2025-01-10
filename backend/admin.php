@@ -15,6 +15,7 @@ if(!isset($_SESSION["login"])){
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Dashboard Admin</title>
     <?= inc("styles"); ?>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
     <style>
         body {
             background-color: #f8f9fa;
@@ -57,6 +58,12 @@ if(!isset($_SESSION["login"])){
 
         .card:hover {
             transform: translateY(-5px);
+        }
+
+        .contacts i {
+            font-size: 24px;
+            color:white;
+            margin: 0 calc(1rem - 10px);
         }
     </style>
 </head>
@@ -108,20 +115,23 @@ if(!isset($_SESSION["login"])){
     </div>
 
     <footer class="mt-5" id="contact">
-        <div class="container-fluid bg-body-tertiary text-dark pt-3">
-            <div class="row mb-4">
-                <div class="col-md-5">
+        <div class="container-fluid bg-secondary text-tertiary pt-3">
+            <div class="d-flex flex-row justify-content-center">
+                <div class="col-md-4 text-center flex-wrap">
                     <h1>Contact</h1>
-                    <div class="address row">
-                        <span><b>Address</b></span>
-                        <span>123 Main Street, City</span>
-                        <span>State Frovince, Country</span>
+                    <div class="contacts">
+                        <a href="https://www.instagram.com/dfsrdonna_?igsh=MXZtdzBnb3RpNTlicw%3D%3D&utm_source=qr"><i class="bi bi-instagram"></i></a>
+                        <a href="mailto:dwifajarsari532@gmail.com"><i class="bi bi-envelope-fill"></i></a>
+                        <a href="tel:085832134674"><i class="bi bi-telephone-inbound"></i></a>
+                    </div>
+                    <div class="address">
+                        Address: Jl. Babakan Siliwangi, Tasikmalaya Jawa Barat, Indonesia
                     </div>
                 </div>
             </div>
-            <div class="row mt-5">
+            <div class="row mt-5 pb-3">
                 <div class="col-md-12 d-flex flex-row justify-content-evenly">
-                    <span>&copy; 2025 muhamad_taufikakbar.ct.ws</span><span> </span> <span>All rights reserved</span><span> </span><span>Privacy Policy</span>
+                    <span>&copy; 2025 portfoliodwifajar.ct.ws/cv/</span><span> </span> <span>All rights reserved</span><span> </span><span>Privacy Policy</span>
                 </div>
             </div>
 
