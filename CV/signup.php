@@ -131,27 +131,6 @@ if(isset($_POST["signup"])){
             font-weight: bold;
         }
 
-        .address {
-            font-size: 1rem;
-            color: #666;
-        }
-
-        .address span {
-            display: block;
-            margin: 5px 0;
-        }
-
-        footer .row span {
-            color: #888;
-            font-size: 0.9rem;
-        }
-
-        footer .row span:hover {
-            color: #333;
-            text-decoration: underline;
-            cursor: pointer;
-        }
-
         /* Responsive Design for Smaller Screens */
         @media (max-width: 768px) {
             .navbar .navbar-brand {
@@ -177,6 +156,12 @@ if(isset($_POST["signup"])){
             .signup-form .form-title {
                 font-size: 1.5rem;
             }
+        }
+
+        .contacts i {
+            font-size: 24px;
+            color:white;
+            margin: 0 calc(1rem - 10px);
         }
 
     </style>

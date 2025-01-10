@@ -28,6 +28,7 @@ if(isset($_POST["login"])){
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login</title>
     <?= inc("styles"); ?>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
     <style>
         /* Navbar Styling */
         .navbar {
@@ -141,25 +142,9 @@ if(isset($_POST["login"])){
             font-weight: bold;
         }
 
-        .address {
-            font-size: 1rem;
-            color: #666;
-        }
-
         .address span {
             display: block;
             margin: 5px 0;
-        }
-
-        footer .row span {
-            color: #888;
-            font-size: 0.9rem;
-        }
-
-        footer .row span:hover {
-            color: #333;
-            text-decoration: underline;
-            cursor: pointer;
         }
 
         /* Responsive Design for Smaller Screens */
@@ -189,13 +174,19 @@ if(isset($_POST["login"])){
             }
         }
 
+        .contacts i {
+            font-size: 24px;
+            color:white;
+            margin: 0 calc(1rem - 10px);
+        }
+
     </style>
 </head>
 <body>
     <!-- Navbar -->
     <nav class="navbar navbar-expand-lg bg-black">
         <div class="container">
-            <a class="navbar-brand text-white" href="">2203010062 DWI FAJAR SARI ROMA DONA C</a>
+            <a class="navbar-brand text-tertiary" href="">2203010083 DWI FAJAR SARI ROMA DONA C</a>
 
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
                 <span class="navbar-toggler-icon"></span>
@@ -243,22 +234,24 @@ if(isset($_POST["login"])){
         </form>
     </div>
 
-    <!-- Footer -->
     <footer class="mt-5" id="contact">
-        <div class="container-fluid bg-body-tertiary text-dark pt-3">
-            <div class="row mb-4">
-                <div class="col-md-5">
+        <div class="container-fluid bg-secondary text-tertiary pt-3">
+            <div class="d-flex flex-row justify-content-center">
+                <div class="col-md-4 text-center flex-wrap">
                     <h1>Contact</h1>
-                    <div class="address row">
-                        <span><b>Address</b></span>
-                        <span>Jl air tanjung, Tasikmalaya</span>
-                        <span>Jawa Barat, Indonesia</span>
+                    <div class="contacts">
+                        <a href="https://www.instagram.com/dfsrdonna_?igsh=MXZtdzBnb3RpNTlicw%3D%3D&utm_source=qr"><i class="bi bi-instagram"></i></a>
+                        <a href="mailto:dwifajarsari532@gmail.com"><i class="bi bi-envelope-fill"></i></a>
+                        <a href="tel:085832134674"><i class="bi bi-telephone-inbound"></i></a>
+                    </div>
+                    <div class="address">
+                        Address: Jl. Babakan Siliwangi, Tasikmalaya Jawa Barat, Indonesia
                     </div>
                 </div>
             </div>
-            <div class="row mt-5">
+            <div class="row mt-5 pb-3">
                 <div class="col-md-12 d-flex flex-row justify-content-evenly">
-                    <span>&copy; 2025 muhamad_taufikakbar.ct.ws</span><span> </span> <span>All rights reserved</span><span> </span><span>Privacy Policy</span>
+                    <span>&copy; 2025 portfoliodwifajar.ct.ws/cv/</span><span> </span> <span>All rights reserved</span><span> </span><span>Privacy Policy</span>
                 </div>
             </div>
 
@@ -267,21 +260,3 @@ if(isset($_POST["login"])){
 <?= inc("scripts"); ?>
 </body>
 </html>
-
-
-<!-- 
-
-<div class="alert alert-${type} alert-dismissible" role="alert">
-    <div>${message}</div>
-    <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
-</div>
-wrapper.innerHTML = [
-    ``,
-    `   `,
-    '   ',
-    ''
-  ].join('')
-
-
-
--->
